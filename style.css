@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Main font: Roboto */
+    background-color: #f4f4f9; /* Soft background color */
+    color: #333; /* Dark gray text for legibility */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif; /* Heading font: Poppins */
+    color: #2c3e50; /* Dark blue for headings */
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+/* Header */
+header {
+    background-color: #2980b9; /* Blue background for the header */
+    padding: 2rem 0;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main Content */
+main {
+    padding: 2rem 5%;
+}
+
+/* Section Styling */
+section {
+    background-color: #ffffff; /* White background for each section */
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #2980b9; /* Matching color with header for consistency */
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #2980b9; /* Blue background for the footer */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+iframe {
+   max-width: 100%;
+}
+
+
